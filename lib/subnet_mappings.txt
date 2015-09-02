@@ -1,0 +1,17 @@
+env   region          name                cidr          az
+dev   ap-southeast-2  vpc                 10.24.0.0/16  -
+dev   ap-southeast-2  application_subnet  10.24.0.0/24  0
+dev   ap-southeast-2  application_subnet  10.24.4.0/24  1
+dev   ap-southeast-2  application_subnet  10.24.8.0/24  2
+sit   ap-southeast-2  vpc                 10.48.0.0/16  -
+sit   ap-southeast-2  application_subnet  10.48.0.0/24  0
+sit   ap-southeast-2  application_subnet  10.48.4.0/24  1
+sit   ap-southeast-2  application_subnet  10.48.8.0/24  2
+uat   us-east-1       vpc                 10.74.0.0/16  -
+uat   us-east-1       application_subnet  10.74.0.0/24  0
+uat   us-east-1       application_subnet  10.74.4.0/24  1
+uat   us-east-1       application_subnet  10.74.8.0/24  2
+prd   us-east-1       vpc                 10.97.0.0/16  -
+prd   us-east-1       application_subnet  10.97.0.0/24  0
+prd   us-east-1       application_subnet  10.97.4.0/24  1
+prd   us-east-1       application_subnet  10.97.8.0/24  2
